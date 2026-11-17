@@ -1,0 +1,15 @@
+Default constructor: 0 + 0i
+Parameter constructor: 2 + 3i
+Copy constructor: 2 + 3i
+Live objects in scope: 3
+Destructor self-check: PASS; 3 scope objects destroyed
+Arithmetic and validation self-checks: PASS
+Enter real and imaginary parts of a: Enter real and imaginary parts of b: a = 3 + 4i
+b = 1 - 2i
+a + b = 4 + 2i
+a - b = 2 + 6i
+a * b = 11 - 2i
+a / b = -1 + 2i
+equ(a,b) = false
+conj(a) = 3 - 4i
+Expected error: Division by zero complex
